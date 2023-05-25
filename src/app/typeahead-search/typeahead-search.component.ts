@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { CategoryService } from "../category.service";
-import { SearchService } from "../search.service";
+import { CategoryService } from "../services/category.service";
+import { SearchService } from "../services/search.service";
 
 @Component({
     selector: 'app-typeahead-search',
@@ -10,7 +10,7 @@ export class TypeaheadSearch implements OnInit {
     categories: string[] = []
     selectedCategory: string = ''
     categoryLoading = true;
-    error: string | null = 'null asfdasfdas';
+    error: string | null = null;
 
     searchQuery: string = ''
     searchLoading: boolean = false
