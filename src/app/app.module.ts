@@ -10,6 +10,7 @@ import { CategoryService } from './services/category.service';
 import { SearchService } from './services/search.service';
 import { FormsModule } from '@angular/forms';
 import { ErrorAlertComponent } from './components/error/error.component';
+import { AppIconsModule } from './icons/icons.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ErrorAlertComponent } from './components/error/error.component';
     ErrorAlertComponent,
   ],
   imports: [
+    AppIconsModule,
     BrowserModule,
     CommonModule,
     FormsModule,
