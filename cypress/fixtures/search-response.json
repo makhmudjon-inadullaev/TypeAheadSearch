@@ -1,0 +1,22 @@
+{
+    "pages": [
+        {
+            "id": 1,
+            "key": "key 1",
+            "title": "title 1",
+            "excerpt": "excerpt 1",
+            "matched_title": "matched_title 1",
+            "description": "description 1",
+            "thumbnail": null
+        },
+        {
+            "id": 2,
+            "key": "key 2",
+            "title": "title 2",
+            "excerpt": "excerpt 2",
+            "matched_title": "matched_title 2",
+            "description": "description 2",
+            "thumbnail": null
+        }
+    ]
+}
